@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import BlogPost from './BlogPost';
+import TextBlock from './TextBlock';
+import BlogPhoto from './BlogPhoto';
 
 class App extends Component {
   state = {
@@ -28,6 +30,12 @@ class App extends Component {
             This is a test. This is a test. This is a test. This is a test.
             This is a test. This is a test.
           </p>
+        </BlogPost>
+        <BlogPost>
+          <TextBlock>
+            This is another test. This is another test. Styling will be put
+            around this.
+          </TextBlock>
         </BlogPost>
       </div>
     );
